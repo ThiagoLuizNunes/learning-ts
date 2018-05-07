@@ -1,4 +1,4 @@
-class Spacecraft {
+class SpaceCraft {
 
   constructor(private propulsor: string) {}
 
@@ -8,6 +8,4 @@ class Spacecraft {
   getPropulsor = () => this.propulsor;
 }
 
-let ship = new Spacecraft('v8-380');
-ship.jumpToHyperSpace();
-console.log(`Propulsor: ${ship.getPropulsor()}`);
+export { SpaceCraft } 
