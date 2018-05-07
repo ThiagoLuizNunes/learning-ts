@@ -4,7 +4,7 @@ var spaceCraft_1 = require("./class-ships/spaceCraft");
 var milleniumFalcon_1 = require("./class-ships/milleniumFalcon");
 // Method Interface
 var goodForTheJob = function (ship) { return ship.cargoContainers > 2; };
-// Class example
+// Class example 
 var ship = new spaceCraft_1.SpaceCraft('v8-380');
 ship.jumpToHyperSpace();
 // Inheritance example

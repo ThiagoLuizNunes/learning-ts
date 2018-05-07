@@ -5,7 +5,7 @@ import { ContainerShip } from './class-ships/containerShip';
 // Method Interface
 let goodForTheJob = (ship: ContainerShip) => ship.cargoContainers > 2;
 
-// Class example
+// Class example 
 let ship = new SpaceCraft('v8-380');
 ship.jumpToHyperSpace();
 
